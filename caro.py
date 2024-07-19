@@ -1,10 +1,10 @@
 import tkinter as tk
 from tkinter import messagebox
-size = 20
+size = 25
 class TicTacToe:
     def __init__(self):
         self.window = tk.Tk()
-        self.window.title("4x4 Tic Tac Toe")
+        self.window.title("Tic Tac Toe")
         # self.window.resizable(0, 0)
         self.board = [['' for _ in range(size)] for _ in range(size)]
         self.player_turn = 'X'
